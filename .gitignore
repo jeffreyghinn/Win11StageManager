@@ -1,0 +1,48 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+*.pubxml.user
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code (keep shared settings, ignore personal state)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Test results and coverage
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+
+# Logs and crash dumps
+*.log
+*.dmp
+
+# OS clutter
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
